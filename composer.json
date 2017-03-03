@@ -1,0 +1,35 @@
+{
+    "name": "adel-shokry/helpers",
+    "description": "هذه الحزمة خاصة باطار عمل لارافل حيث تضيف خاصية التحكم باللغات وبعض الدوال المساعدة",
+    "type":"Library",
+    "License":"MIT",
+    "authors": [
+        {
+            "name": "Adel Shokry",
+            "email": "adel.arabcoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.3",
+        "davejamesmiller/laravel-breadcrumbs": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdelShokry\\Helpers\\": "src/providers",
+            "AdelShokry\\Helpers\\Relation\\": "src/Relation"
+        },
+        "files":[
+            "HelperValidatesRequest.php",
+            "src/Routes/routesMethods.php",
+            "src/helpers/src/Files/Files.php",
+            "src/helpers/src/Routes/MyRoute.php",
+            "src/helpers/src/bsForm.php",
+            "src/helpers/src/Btn.php",
+            "src/helpers/src/Control.php",
+            "src/helpers/src/langForm.php",
+            "src/helpers/flash.php",
+            "src/helpers/functions.php"
+        ]
+    }
+}
